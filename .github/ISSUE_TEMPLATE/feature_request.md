@@ -1,20 +1,18 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: "[FEAT]"
 labels: ''
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Background
+- 해당 작업을 왜 하는지 적는 부분
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+## Todo
+- [ ] 작업 1
+- [ ] 작업 2
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+##See also
+- 참고링크
