@@ -1,0 +1,13 @@
+# Django 관련 파일들
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+/static/
+*.log
+
+# 환경 설정 파일
+.env
+
+# 가상 환경
+venv/
