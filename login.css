@@ -1,4 +1,4 @@
-/* styles.css */
+/* login.html - styles.css */
 * {
     margin: 0;
     padding: 0;
@@ -100,3 +100,33 @@ input {
     height: 100%;
     object-fit: cover; /* 이미지를 버튼 크기에 맞게 조정 */
 }
+
+/* 로그인 페이지 스타일
+.login-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.link-button {
+    background-color: transparent;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    text-decoration: underline;
+} */
