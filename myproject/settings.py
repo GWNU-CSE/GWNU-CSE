@@ -31,9 +31,6 @@ ALLOWED_HOSTS = []
 # 세션 데이터를 저장하는 백엔드 설정 
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
-#이미지, 동영상 파일 저장용
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 # Application definition
 
