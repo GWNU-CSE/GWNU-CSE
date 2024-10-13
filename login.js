@@ -20,13 +20,8 @@ document.getElementById("findIdBtn").addEventListener("click", function() {
     window.location.href = "idfind.html";
 });
 
-// 회원가입 버튼을 눌렀을 때, 추가적인 유효성 검사를 할 수 있습니다.
-document.getElementById("signupForm").addEventListener("submit", function(event) {
-    const password = document.getElementById("password").value;
-    const confirmPassword = document.getElementById("confirmPassword").value;
-
-    if (password !== confirmPassword) {
-        alert("비밀번호가 일치하지 않습니다.");
-        event.preventDefault();  // 폼 제출을 막음
-    }
+// login.html에서 아이디 찾기 버튼을 클릭했을 때 pwfind.html로 이동하는 함수
+document.getElementById("findPwBtn").addEventListener("click", function() {
+    window.location.href = "pwfind.html";
 });
+
